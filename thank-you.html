@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Thank you for contacting Topo II Land Services">
+    <title>Thank You | Topo II Land Services</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        .thank-you {
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: var(--spacing-2xl);
+            text-align: center;
+            background: linear-gradient(135deg, var(--color-off-white) 0%, var(--color-white) 100%);
+        }
+
+        .thank-you__icon {
+            width: 80px;
+            height: 80px;
+            margin-bottom: var(--spacing-xl);
+            color: var(--color-sage);
+        }
+
+        .thank-you__title {
+            margin-bottom: var(--spacing-md);
+        }
+
+        .thank-you__text {
+            max-width: 500px;
+            color: var(--color-gray-600);
+            margin-bottom: var(--spacing-2xl);
+        }
+
+        .thank-you__logo {
+            margin-bottom: var(--spacing-2xl);
+        }
+
+        .thank-you__logo svg {
+            height: 60px;
+            width: auto;
+        }
+    </style>
+</head>
+<body>
+    <main class="thank-you">
+        <div class="thank-you__logo">
+            <svg viewBox="0 0 400 120" xmlns="http://www.w3.org/2000/svg">
+                <g class="contour-lines" fill="none" stroke="#708965" stroke-width="2">
+                    <path d="M10,100 Q30,90 50,60 Q70,30 60,15 Q50,5 35,10 Q15,20 10,50 Q5,80 10,100 Z"/>
+                    <path d="M18,92 Q35,82 50,55 Q62,32 55,20 Q47,12 37,16 Q22,24 18,48 Q14,72 18,92 Z"/>
+                    <path d="M26,84 Q40,75 50,52 Q58,35 52,26 Q46,19 38,22 Q28,28 26,47 Q24,66 26,84 Z"/>
+                    <path d="M33,76 Q43,68 50,50 Q55,38 50,32 Q45,26 40,28 Q34,32 33,46 Q32,60 33,76 Z"/>
+                    <path d="M39,68 Q45,62 48,48 Q51,40 48,36 Q45,32 42,34 Q39,37 39,46 Q39,55 39,68 Z"/>
+                    <path d="M43,58 Q46,54 47,47 Q48,42 46,40 Q44,38 43,40 Q42,43 43,48 Q43,53 43,58 Z"/>
+                </g>
+                <text x="85" y="55" fill="#5D7A8C" font-family="Inter, sans-serif" font-weight="700" font-size="48">TOPO</text>
+                <rect x="230" y="18" width="8" height="45" fill="#A15D4E"/>
+                <rect x="245" y="18" width="8" height="45" fill="#A15D4E"/>
+                <text x="85" y="100" fill="#4A5D6B" font-family="Inter, sans-serif" font-weight="400" font-size="32" letter-spacing="8">LAND SERVICES</text>
+            </svg>
+        </div>
+
+        <div class="thank-you__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="12" r="10"/>
+                <path d="M8 12l2.5 2.5L16 9"/>
+            </svg>
+        </div>
+
+        <h1 class="thank-you__title">Thank You!</h1>
+        <p class="thank-you__text">
+            Your message has been received. We appreciate your interest in Topo II Land Services and will get back to you as soon as possible.
+        </p>
+
+        <a href="/" class="btn btn--primary">Return to Homepage</a>
+    </main>
+</body>
+</html>
