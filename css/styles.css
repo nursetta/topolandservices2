@@ -279,7 +279,6 @@ p {
     display: flex;
     align-items: center;
     height: 100%;
-    margin: 30px;
 }
 
 .logo-icon {
@@ -287,6 +286,7 @@ p {
     width: auto;
     max-width: none;
     object-fit: contain;
+    margin: 35px;
 }
 
 .nav__menu {
