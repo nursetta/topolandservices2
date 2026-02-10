@@ -279,6 +279,7 @@ p {
     display: flex;
     align-items: center;
     height: 100%;
+    margin: 30px;
 }
 
 .logo-icon {
