@@ -261,6 +261,7 @@ p {
     background-color: var(--color-white);
     z-index: 1000;
     transition: box-shadow var(--transition-base);
+    overflow: visible;
 }
 
 .header--scrolled {
@@ -277,11 +278,14 @@ p {
 .nav__logo {
     display: flex;
     align-items: center;
+    height: 100%;
 }
 
 .logo-icon {
     height: 220px;
     width: auto;
+    max-width: none;
+    object-fit: contain;
 }
 
 .nav__menu {
