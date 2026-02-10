@@ -74,7 +74,7 @@
     --container-padding: 1.5rem;
 
     /* Header Height */
-    --header-height: 80px;
+    --header-height: 240px;
 }
 
 /* ========================================
@@ -280,7 +280,7 @@ p {
 }
 
 .logo-icon {
-    height: 50px;
+    height: 220px;
     width: auto;
 }
 
@@ -700,7 +700,7 @@ p {
    ======================================== */
 
 .footer {
-    padding: var(--spacing-3xl) 0 var(--spacing-xl);
+    padding: var(--spacing-4xl) 0 var(--spacing-xl);
     background-color: var(--color-gray-900);
     color: var(--color-gray-400);
 }
@@ -714,9 +714,9 @@ p {
 }
 
 .footer__logo {
-    height: 60px;
+    height: 220px;
     width: auto;
-    margin-bottom: var(--spacing-md);
+    margin-bottom: var(--spacing-xl);
 }
 
 .footer__tagline {
@@ -792,7 +792,7 @@ p {
 /* Mobile */
 @media (max-width: 768px) {
     :root {
-        --header-height: 70px;
+        --header-height: 180px;
         --container-padding: 1rem;
     }
 
