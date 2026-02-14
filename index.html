@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Topo Land Services II - Expert land services for oil and gas pipeline management, easements, title search, right of way acquisition, and data center site acquisition.">
+    <title>Topo Land Services II | Pipeline & Data Center Site Acquisition</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">
+                <img src="logo.svg" alt="Topo Land Services II" class="logo-icon">
+            </a>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#services" class="nav__link">Services</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link nav__link--cta">Contact Us</a></li>
+                </ul>
+                <button class="nav__close" id="nav-close" aria-label="Close menu">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <line x1="18" y1="6" x2="6" y2="18"></line>
+                        <line x1="6" y1="6" x2="18" y2="18"></line>
+                    </svg>
+                </button>
+            </div>
+            <button class="nav__toggle" id="nav-toggle" aria-label="Open menu">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <line x1="3" y1="6" x2="21" y2="6"></line>
+                    <line x1="3" y1="12" x2="21" y2="12"></line>
+                    <line x1="3" y1="18" x2="21" y2="18"></line>
+                </svg>
+            </button>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero" id="hero">
+            <div class="container hero__container">
+                <div class="hero__content">
+                    <h1 class="hero__title">Expert Land Services for <span class="highlight">Energy Infrastructure</span></h1>
+                    <p class="hero__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+                    <div class="hero__buttons">
+                        <a href="#contact" class="btn btn--primary">Get Started</a>
+                        <a href="#services" class="btn btn--outline">Our Services</a>
+                    </div>
+                </div>
+                <div class="hero__visual">
+                    <div class="hero__graphic">
+                        <!-- Data center / server rack inspired SVG -->
+                        <svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg" class="hero__svg">
+                            <defs>
+                                <linearGradient id="glowGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                                    <stop offset="0%" style="stop-color:#0ea5e9;stop-opacity:0.2"/>
+                                    <stop offset="100%" style="stop-color:#0ea5e9;stop-opacity:0"/>
+                                </linearGradient>
+                            </defs>
+
+                            <!-- Circuit board grid lines -->
+                            <g stroke="#0ea5e9" stroke-width="0.5" opacity="0.15">
+                                <line x1="0" y1="50" x2="400" y2="50"/>
+                                <line x1="0" y1="100" x2="400" y2="100"/>
+                                <line x1="0" y1="150" x2="400" y2="150"/>
+                                <line x1="0" y1="200" x2="400" y2="200"/>
+                                <line x1="0" y1="250" x2="400" y2="250"/>
+                                <line x1="0" y1="300" x2="400" y2="300"/>
+                                <line x1="0" y1="350" x2="400" y2="350"/>
+                                <line x1="50" y1="0" x2="50" y2="400"/>
+                                <line x1="100" y1="0" x2="100" y2="400"/>
+                                <line x1="150" y1="0" x2="150" y2="400"/>
+                                <line x1="200" y1="0" x2="200" y2="400"/>
+                                <line x1="250" y1="0" x2="250" y2="400"/>
+                                <line x1="300" y1="0" x2="300" y2="400"/>
+                                <line x1="350" y1="0" x2="350" y2="400"/>
+                            </g>
+
+                            <!-- Server rack outline -->
+                            <g fill="none" stroke="#0ea5e9" opacity="0.6">
+                                <!-- Rack frame -->
+                                <rect x="100" y="60" width="200" height="280" rx="8" stroke-width="2"/>
+
+                                <!-- Server unit 1 -->
+                                <rect x="115" y="80" width="170" height="40" rx="4" stroke-width="1.5"/>
+                                <circle cx="135" cy="100" r="4" fill="#0ea5e9" opacity="0.8"/>
+                                <circle cx="150" cy="100" r="4" fill="#0ea5e9" opacity="0.5"/>
+                                <line x1="220" y1="95" x2="270" y2="95" stroke-width="1.5" stroke-linecap="round"/>
+                                <line x1="220" y1="105" x2="260" y2="105" stroke-width="1.5" stroke-linecap="round"/>
+
+                                <!-- Server unit 2 -->
+                                <rect x="115" y="130" width="170" height="40" rx="4" stroke-width="1.5"/>
+                                <circle cx="135" cy="150" r="4" fill="#22c55e" opacity="0.8"/>
+                                <circle cx="150" cy="150" r="4" fill="#0ea5e9" opacity="0.5"/>
+                                <line x1="220" y1="145" x2="270" y2="145" stroke-width="1.5" stroke-linecap="round"/>
+                                <line x1="220" y1="155" x2="255" y2="155" stroke-width="1.5" stroke-linecap="round"/>
+
+                                <!-- Server unit 3 -->
+                                <rect x="115" y="180" width="170" height="40" rx="4" stroke-width="1.5"/>
+                                <circle cx="135" cy="200" r="4" fill="#0ea5e9" opacity="0.8"/>
+                                <circle cx="150" cy="200" r="4" fill="#22c55e" opacity="0.5"/>
+                                <line x1="220" y1="195" x2="270" y2="195" stroke-width="1.5" stroke-linecap="round"/>
+                                <line x1="220" y1="205" x2="265" y2="205" stroke-width="1.5" stroke-linecap="round"/>
+
+                                <!-- Server unit 4 -->
+                                <rect x="115" y="230" width="170" height="40" rx="4" stroke-width="1.5"/>
+                                <circle cx="135" cy="250" r="4" fill="#22c55e" opacity="0.8"/>
+                                <circle cx="150" cy="250" r="4" fill="#0ea5e9" opacity="0.5"/>
+                                <line x1="220" y1="245" x2="270" y2="245" stroke-width="1.5" stroke-linecap="round"/>
+                                <line x1="220" y1="255" x2="258" y2="255" stroke-width="1.5" stroke-linecap="round"/>
+
+                                <!-- Server unit 5 -->
+                                <rect x="115" y="280" width="170" height="40" rx="4" stroke-width="1.5"/>
+                                <circle cx="135" cy="300" r="4" fill="#0ea5e9" opacity="0.8"/>
+                                <circle cx="150" cy="300" r="4" fill="#0ea5e9" opacity="0.5"/>
+                                <line x1="220" y1="295" x2="270" y2="295" stroke-width="1.5" stroke-linecap="round"/>
+                                <line x1="220" y1="305" x2="262" y2="305" stroke-width="1.5" stroke-linecap="round"/>
+                            </g>
+
+                            <!-- Connection lines going out -->
+                            <g stroke="#0ea5e9" stroke-width="1" opacity="0.3">
+                                <path d="M300 100 L340 80 L380 80" fill="none"/>
+                                <path d="M300 150 L350 150" fill="none"/>
+                                <path d="M300 200 L340 220 L380 220" fill="none"/>
+                                <path d="M300 250 L350 260 L380 260" fill="none"/>
+                                <path d="M100 100 L60 80 L20 80" fill="none"/>
+                                <path d="M100 200 L60 200 L20 200" fill="none"/>
+                                <path d="M100 300 L60 320 L20 320" fill="none"/>
+                            </g>
+
+                            <!-- Connection dots -->
+                            <g fill="#0ea5e9" opacity="0.5">
+                                <circle cx="380" cy="80" r="3"/>
+                                <circle cx="350" cy="150" r="3"/>
+                                <circle cx="380" cy="220" r="3"/>
+                                <circle cx="380" cy="260" r="3"/>
+                                <circle cx="20" cy="80" r="3"/>
+                                <circle cx="20" cy="200" r="3"/>
+                                <circle cx="20" cy="320" r="3"/>
+                            </g>
+
+                            <!-- Topo contour lines integrated subtly -->
+                            <g fill="none" stroke="#5a9d7e" stroke-width="1" opacity="0.2" transform="translate(280, 300) scale(0.2)">
+                                <path d="M50,350 Q100,300 150,250 Q200,200 180,150 Q160,100 120,80 Q80,60 50,100 Q20,140 30,200 Q40,260 50,350 Z"/>
+                                <path d="M70,330 Q115,285 155,240 Q195,195 175,150 Q155,105 120,90 Q85,75 60,110 Q35,145 45,200 Q55,255 70,330 Z"/>
+                                <path d="M90,310 Q130,270 160,230 Q190,190 170,150 Q150,110 120,100 Q90,90 70,120 Q50,150 60,200 Q70,250 90,310 Z"/>
+                            </g>
+
+                            <!-- Ambient glow -->
+                            <circle cx="200" cy="200" r="160" fill="url(#glowGrad)"/>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section class="services" id="services">
+            <div class="container">
+                <div class="section__header">
+                    <span class="section__tag">What We Do</span>
+                    <h2 class="section__title">Our Services</h2>
+                    <p class="section__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in dui mauris viverra aliquet nunc.</p>
+                </div>
+                <div class="services__grid">
+                    <!-- Service 1: Pipeline Management -->
+                    <div class="service-card">
+                        <div class="service-card__icon">
+                            <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M8 32H56" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+                                <path d="M8 24H20V40H8V24Z" stroke="currentColor" stroke-width="2"/>
+                                <path d="M44 24H56V40H44V24Z" stroke="currentColor" stroke-width="2"/>
+                                <circle cx="32" cy="32" r="6" stroke="currentColor" stroke-width="2"/>
+                                <path d="M20 32H26" stroke="currentColor" stroke-width="2"/>
+                                <path d="M38 32H44" stroke="currentColor" stroke-width="2"/>
+                            </svg>
+                        </div>
+                        <h3 class="service-card__title">Pipeline Management</h3>
+                        <p class="service-card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <a href="#contact" class="service-card__link">Learn More <span>&rarr;</span></a>
+                    </div>
+
+                    <!-- Service 2: Easements -->
+                    <div class="service-card">
+                        <div class="service-card__icon">
+                            <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="8" y="12" width="48" height="40" rx="2" stroke="currentColor" stroke-width="2"/>
+                                <path d="M8 22H56" stroke="currentColor" stroke-width="2"/>
+                                <path d="M16 32H40" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                                <path d="M16 40H32" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                                <circle cx="48" cy="36" r="6" stroke="currentColor" stroke-width="2"/>
+                                <path d="M48 33V39" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                                <path d="M45 36H51" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                            </svg>
+                        </div>
+                        <h3 class="service-card__title">Easements</h3>
+                        <p class="service-card__description">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        <a href="#contact" class="service-card__link">Learn More <span>&rarr;</span></a>
+                    </div>
+
+                    <!-- Service 3: Title Search -->
+                    <div class="service-card">
+                        <div class="service-card__icon">
+                            <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="12" y="8" width="40" height="48" rx="2" stroke="currentColor" stroke-width="2"/>
+                                <path d="M20 20H44" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                                <path d="M20 28H44" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                                <path d="M20 36H36" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                                <circle cx="44" cy="44" r="8" stroke="currentColor" stroke-width="2"/>
+                                <path d="M50 50L56 56" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                            </svg>
+                        </div>
+                        <h3 class="service-card__title">Title Search</h3>
+                        <p class="service-card__description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                        <a href="#contact" class="service-card__link">Learn More <span>&rarr;</span></a>
+                    </div>
+
+                    <!-- Service 4: Right of Way Acquisition -->
+                    <div class="service-card">
+                        <div class="service-card__icon">
+                            <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M32 8L56 24V56H8V24L32 8Z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+                                <path d="M24 56V40H40V56" stroke="currentColor" stroke-width="2"/>
+                                <path d="M8 24L32 8L56 24" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+                                <path d="M20 28H28V36H20V28Z" stroke="currentColor" stroke-width="2"/>
+                                <path d="M36 28H44V36H36V28Z" stroke="currentColor" stroke-width="2"/>
+                            </svg>
+                        </div>
+                        <h3 class="service-card__title">Right of Way Acquisition</h3>
+                        <p class="service-card__description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        <a href="#contact" class="service-card__link">Learn More <span>&rarr;</span></a>
+                    </div>
+
+                    <!-- Service 5: Data Center Acquisition -->
+                    <div class="service-card">
+                        <div class="service-card__icon">
+                            <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="8" y="12" width="48" height="16" rx="2" stroke="currentColor" stroke-width="2"/>
+                                <rect x="8" y="36" width="48" height="16" rx="2" stroke="currentColor" stroke-width="2"/>
+                                <circle cx="16" cy="20" r="2" fill="currentColor"/>
+                                <circle cx="24" cy="20" r="2" fill="currentColor"/>
+                                <circle cx="16" cy="44" r="2" fill="currentColor"/>
+                                <circle cx="24" cy="44" r="2" fill="currentColor"/>
+                                <path d="M40 20H48" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                                <path d="M40 44H48" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                            </svg>
+                        </div>
+                        <h3 class="service-card__title">Data Center Acquisition</h3>
+                        <p class="service-card__description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
+                        <a href="#contact" class="service-card__link">Learn More <span>&rarr;</span></a>
+                    </div>
+
+                    <!-- Service 6: Consultation -->
+                    <div class="service-card">
+                        <div class="service-card__icon">
+                            <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="24" cy="20" r="8" stroke="currentColor" stroke-width="2"/>
+                                <path d="M8 48C8 40 15 34 24 34" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                                <circle cx="44" cy="24" r="6" stroke="currentColor" stroke-width="2"/>
+                                <path d="M56 48C56 42 51 38 44 38C40 38 36 40 34 43" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                                <path d="M20 48H48" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                            </svg>
+                        </div>
+                        <h3 class="service-card__title">Expert Consultation</h3>
+                        <p class="service-card__description">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni.</p>
+                        <a href="#contact" class="service-card__link">Learn More <span>&rarr;</span></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="about" id="about">
+            <div class="container about__container">
+                <div class="about__content">
+                    <span class="section__tag">About Us</span>
+                    <h2 class="section__title">Trusted Expertise in Land Services</h2>
+                    <p class="about__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+                    <p class="about__text">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <div class="about__stats">
+                        <div class="stat">
+                            <span class="stat__number">25+</span>
+                            <span class="stat__label">Years Experience</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat__number">500+</span>
+                            <span class="stat__label">Projects Completed</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat__number">100+</span>
+                            <span class="stat__label">Clients Served</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about__visual">
+                    <div class="about__image-wrapper">
+                        <div class="about__pattern">
+                            <!-- Data center network topology SVG -->
+                            <svg viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg">
+                                <!-- Network grid -->
+                                <g stroke="#0ea5e9" stroke-width="0.5" opacity="0.1">
+                                    <line x1="0" y1="75" x2="300" y2="75"/>
+                                    <line x1="0" y1="150" x2="300" y2="150"/>
+                                    <line x1="0" y1="225" x2="300" y2="225"/>
+                                    <line x1="75" y1="0" x2="75" y2="300"/>
+                                    <line x1="150" y1="0" x2="150" y2="300"/>
+                                    <line x1="225" y1="0" x2="225" y2="300"/>
+                                </g>
+
+                                <!-- Network connections -->
+                                <g stroke="#0ea5e9" stroke-width="1.5" fill="none" opacity="0.3">
+                                    <line x1="150" y1="80" x2="80" y2="150"/>
+                                    <line x1="150" y1="80" x2="220" y2="150"/>
+                                    <line x1="80" y1="150" x2="150" y2="220"/>
+                                    <line x1="220" y1="150" x2="150" y2="220"/>
+                                    <line x1="150" y1="80" x2="150" y2="220"/>
+                                    <line x1="80" y1="150" x2="220" y2="150"/>
+                                </g>
+
+                                <!-- Network nodes -->
+                                <g>
+                                    <!-- Central hub -->
+                                    <circle cx="150" cy="150" r="18" fill="#0f172a" stroke="#0ea5e9" stroke-width="2" opacity="0.8"/>
+                                    <circle cx="150" cy="150" r="6" fill="#0ea5e9" opacity="0.6"/>
+
+                                    <!-- Top node -->
+                                    <circle cx="150" cy="80" r="12" fill="#0f172a" stroke="#0ea5e9" stroke-width="1.5" opacity="0.7"/>
+                                    <circle cx="150" cy="80" r="4" fill="#0ea5e9" opacity="0.5"/>
+
+                                    <!-- Left node -->
+                                    <circle cx="80" cy="150" r="12" fill="#0f172a" stroke="#0ea5e9" stroke-width="1.5" opacity="0.7"/>
+                                    <circle cx="80" cy="150" r="4" fill="#22c55e" opacity="0.5"/>
+
+                                    <!-- Right node -->
+                                    <circle cx="220" cy="150" r="12" fill="#0f172a" stroke="#0ea5e9" stroke-width="1.5" opacity="0.7"/>
+                                    <circle cx="220" cy="150" r="4" fill="#0ea5e9" opacity="0.5"/>
+
+                                    <!-- Bottom node -->
+                                    <circle cx="150" cy="220" r="12" fill="#0f172a" stroke="#0ea5e9" stroke-width="1.5" opacity="0.7"/>
+                                    <circle cx="150" cy="220" r="4" fill="#22c55e" opacity="0.5"/>
+                                </g>
+
+                                <!-- Topo contour lines - brand identity -->
+                                <g fill="none" stroke="#5a9d7e" stroke-width="1" opacity="0.25" transform="translate(190, 30) scale(0.35)">
+                                    <path d="M50,350 Q100,300 150,250 Q200,200 180,150 Q160,100 120,80 Q80,60 50,100 Q20,140 30,200 Q40,260 50,350 Z"/>
+                                    <path d="M70,330 Q115,285 155,240 Q195,195 175,150 Q155,105 120,90 Q85,75 60,110 Q35,145 45,200 Q55,255 70,330 Z"/>
+                                    <path d="M90,310 Q130,270 160,230 Q190,190 170,150 Q150,110 120,100 Q90,90 70,120 Q50,150 60,200 Q70,250 90,310 Z"/>
+                                </g>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="cta">
+            <div class="container cta__container">
+                <h2 class="cta__title">Ready to Start Your Project?</h2>
+                <p class="cta__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Contact us today to discuss your land service needs.</p>
+                <a href="#contact" class="btn btn--primary btn--large">Get in Touch</a>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact" id="contact">
+            <div class="container contact__container">
+                <div class="contact__info">
+                    <span class="section__tag">Contact</span>
+                    <h2 class="section__title">Let's Work Together</h2>
+                    <p class="contact__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Reach out to discuss your project requirements.</p>
+
+                    <div class="contact__details">
+                        <div class="contact__item">
+                            <div class="contact__icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                                    <circle cx="12" cy="10" r="3"/>
+                                </svg>
+                            </div>
+                            <div class="contact__item-content">
+                                <h4>Address</h4>
+                                <p>123 Business Street<br>City, State 12345</p>
+                            </div>
+                        </div>
+                        <div class="contact__item">
+                            <div class="contact__icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+                                </svg>
+                            </div>
+                            <div class="contact__item-content">
+                                <h4>Phone</h4>
+                                <p>(555) 123-4567</p>
+                            </div>
+                        </div>
+                        <div class="contact__item">
+                            <div class="contact__icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                                    <polyline points="22,6 12,13 2,6"/>
+                                </svg>
+                            </div>
+                            <div class="contact__item-content">
+                                <h4>Email</h4>
+                                <p>info@topo2landservices.com</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact__form-wrapper">
+                    <form name="contact" method="POST" action="/thank-you.html" data-netlify="true" netlify-honeypot="bot-field" class="contact__form">
+                        <input type="hidden" name="form-name" value="contact">
+                        <p class="hidden">
+                            <label>Don't fill this out if you're human: <input name="bot-field"></label>
+                        </p>
+                        <div class="form__group">
+                            <label for="name" class="form__label">Full Name</label>
+                            <input type="text" id="name" name="name" class="form__input" placeholder="John Doe" required>
+                        </div>
+                        <div class="form__group">
+                            <label for="email" class="form__label">Email Address</label>
+                            <input type="email" id="email" name="email" class="form__input" placeholder="john@example.com" required>
+                        </div>
+                        <div class="form__group">
+                            <label for="phone" class="form__label">Phone Number</label>
+                            <input type="tel" id="phone" name="phone" class="form__input" placeholder="(555) 123-4567">
+                        </div>
+                        <div class="form__group">
+                            <label for="service" class="form__label">Service Interest</label>
+                            <select id="service" name="service" class="form__input form__select">
+                                <option value="">Select a service...</option>
+                                <option value="pipeline">Pipeline Management</option>
+                                <option value="easements">Easements</option>
+                                <option value="title-search">Title Search</option>
+                                <option value="right-of-way">Right of Way Acquisition</option>
+                                <option value="data-center">Data Center Acquisition</option>
+                                <option value="consultation">General Consultation</option>
+                            </select>
+                        </div>
+                        <div class="form__group">
+                            <label for="message" class="form__label">Message</label>
+                            <textarea id="message" name="message" class="form__input form__textarea" placeholder="Tell us about your project..." rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn--primary btn--full">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__brand">
+                    <img src="logo.svg" alt="Topo Land Services II" class="footer__logo">
+                    <p class="footer__tagline">Expert land services for energy infrastructure and data center site acquisition projects.</p>
+                </div>
+                <div class="footer__links">
+                    <div class="footer__column">
+                        <h4>Services</h4>
+                        <ul>
+                            <li><a href="#services">Pipeline Management</a></li>
+                            <li><a href="#services">Easements</a></li>
+                            <li><a href="#services">Title Search</a></li>
+                            <li><a href="#services">Right of Way</a></li>
+                            <li><a href="#services">Data Center</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer__column">
+                        <h4>Company</h4>
+                        <ul>
+                            <li><a href="#about">About Us</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <p>&copy; 2024 Topo Land Services II. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
