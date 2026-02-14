@@ -88,7 +88,7 @@
     --container-padding: 1.5rem;
 
     /* Header */
-    --header-height: 80px;
+    --header-height: 96px;
 }
 
 /* ========================================
@@ -303,7 +303,7 @@ p {
 }
 
 .logo-icon {
-    height: 56px;
+    height: 72px;
     width: auto;
     max-width: none;
     object-fit: contain;
@@ -854,7 +854,7 @@ p {
 }
 
 .footer__logo {
-    height: 48px;
+    height: 64px;
     width: auto;
     margin-bottom: var(--spacing-lg);
     opacity: 0.9;
